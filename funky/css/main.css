@@ -1,0 +1,238 @@
+/*
+ * Author: Jacqueline Buchmaier
+ *
+ * Project Name: Funky-Ladies - Dance.Sport.Funn
+ * Version: 1.0
+ */
+
+body {
+  background-color: #f2f2f2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.red{
+	background-color: #b85b55;
+	width: 100%;
+}
+
+.green{
+	background-color: #587952;
+	width: 100%;
+}
+
+
+@font-face { font-family: 'dolceVita';
+             src: url('../fonts/DolceVita.ttf') format('truetype'); }
+@font-face { font-family: 'springtime';
+             src: url('../fonts/SpringtimeBlues.ttf') format('truetype'); }
+@font-face { font-family: 'honey';
+             src: url('../fonts/HoneyMoon.ttf') format('truetype'); }
+@font-face { font-family: 'ornament';
+             src: url('../fonts/Ornaments.ttf') format('truetype'); }
+
+/* Titles */
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: 'springtime';
+    font-weight: 300;
+    color: #333333;
+}
+
+h1 {
+	font-family: 'dolceVita';
+	font-size: 40px;
+}
+
+h2 {
+	font-family: 'springtime';
+	color: #333333;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'dolceVita';
+	color: #333333;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h4 {
+	font-family: 'springtime';
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h5 {
+	font-family: 'dolceVita';
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+h6 {
+	font-family: 'ornament';
+	color: #95a5a6;
+	font-weight: 400;
+	font-size: 100px;
+}
+
+h7 {
+	font-family: 'honey';
+	color: #333333;
+	font-weight: 400;
+	font-size: 100px;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+
+b:hover {
+	color: #333333;
+    text-decoration: none;
+    outline: 0;
+}
+
+b:focus {
+	color: #b85b55;
+    text-decoration: none;
+    outline: 0;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #b85b55;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #cf0d01;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar-default {
+	background-color: #b85b55;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'springtime';
+	font-size: 40px;
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-family: 'dolceVita';
+	color: white;
+}
+
+/* Helpers */
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.form-control {
+	height: 42px;
+	font-size: 18px;
+	width: 280px;
+}
+
+i {
+	margin: 8px;
+	color: #3498db; 
+}
+
+
+/* HeaderWrap */
+#headerwrap {
+	background-color: #b85b55;
+	margin-top: -20px;
+	padding-top:200px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	margin-top: 60px;
+	margin-bottom: 15px;
+	color: white;
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#between {
+	background-color: #333333;
+	margin-top: -10px;
+	padding-top:10px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 10px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
